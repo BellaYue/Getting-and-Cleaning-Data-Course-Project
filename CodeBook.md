@@ -27,10 +27,11 @@ ignored.
 Raw Data in this project
 ------------------------
 
-There are 3 types of the data files in this project. \* X: rows of
-features measurements + &gt; X\_train.txt: 7352 obs. of 561 features, 21
-of 30 volunteers + &gt; X\_test.txt: 2947 obs. of 561 features, 9 of 30
-volunteers
+There are 3 types of the data files in this project. 
+-    X: rows of features measurements 
+     -   X_train.txt: 7352 obs. of 561 features, 21 of 30 volunteers 
+     
+     -   X_test.txt: 2947 obs. of 561 features, 9 of 30 volunteers
 
 -   y: the activity labels corresponding to each row of X. Encoded
     as numbers.
@@ -45,9 +46,9 @@ volunteers
     -   subject\_test.txt: a vector of 2947 intergers
 
 In addition, the list of features and the activity labels are loaded
-into the project. \* &gt; features.txt: names of the 561 features \*
-&gt; activity\_labels.txt: IDs and names of the 6 activities (WALKING,
-WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING)
+into the project. 
+-   features.txt: names of the 561 features
+-   activity_labels.txt: IDs and names of the 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 Transformation
 --------------
